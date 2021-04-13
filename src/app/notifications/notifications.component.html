@@ -1,0 +1,9 @@
+<p>All notifications</p>
+
+<ul>
+    <li *ngFor="let resultObj of notifications">
+      Title : {{ resultObj.title}} <br>
+      Body : {{ resultObj.body}} <br>
+      isRead : {{ resultObj.read}} <br><br>
+    </li>
+ </ul>
